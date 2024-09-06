@@ -28,6 +28,7 @@ except ImportError:
         'Exception raised by Queue.get(block=0)/get_nowait().'
         pass
 
+
 class Full(Exception):
     'Exception raised by Queue.put(block=0)/put_nowait().'
     pass
